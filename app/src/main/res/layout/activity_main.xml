@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="412dp"
+        android:orientation="vertical"
+        android:background="@mipmap/onboarding_background">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="308dp"
+        android:layout_height="90dp"
+        android:text="Best workouts for you"
+        android:textAlignment="center"
+
+        android:textColor="#2B2B2B"
+        android:textSize="36sp"
+
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="400dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="356dp"
+        android:layout_height="38dp"
+        android:translationY="500dp"
+        android:translationX="15dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#C4C4C4"
+        android:text="You will have everything you need to reach your personal fitness goals - for free!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:translationY="600dp"
+        android:translationX="110dp"
+        android:background="@drawable/custom_button"
+        android:text="Get Started"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

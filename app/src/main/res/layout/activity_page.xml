@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_page">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="374dp"
+                android:layout_height="30dp"
+                android:translationX="20dp"
+                android:translationY="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:translationX="320dp"
+                    android:translationY="-30dp"
+                    app:srcCompat="@drawable/menu" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="171dp"
+                android:layout_height="29dp"
+                android:text="Your Activities"
+                android:textColor="#2B2B2B"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:translationX="20dp"
+                android:translationY="50dp" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="850dp"
+                android:fillViewport="true"
+                android:translationY="55dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:translationX="20dp"
+                        android:translationY="10dp"
+                        android:text="This Week"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#2B2B2B"/>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="74dp"
+                        android:accessibilityLiveRegion="polite"
+                        android:contentDescription="@string/scroll"
+                        android:fillViewport="true"
+                        android:labelFor="@+id/scroll"
+                        android:translationY="40dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView38"
+                                android:layout_width="69dp"
+                                android:layout_height="71dp"
+                                app:srcCompat="@drawable/date1" />
+
+                            <ImageView
+                                android:id="@+id/imageView39"
+                                android:layout_width="69dp"
+                                android:layout_height="71dp"
+                                android:translationX="77dp"
+                                android:translationY="-68dp"
+                                app:srcCompat="@drawable/date2" />
+
+                            <ImageView
+                                android:id="@+id/imageView40"
+                                android:layout_width="65dp"
+                                android:layout_height="71dp"
+                                android:translationX="154dp"
+                                android:translationY="-139dp"
+                                app:srcCompat="@drawable/date3" />
+
+                            <ImageView
+                                android:id="@+id/imageView41"
+                                android:layout_width="68dp"
+                                android:layout_height="71dp"
+                                android:translationX="231dp"
+                                android:translationY="-210dp"
+                                app:srcCompat="@drawable/date4" />
+
+                            <ImageView
+                                android:id="@+id/imageView42"
+                                android:layout_width="67dp"
+                                android:layout_height="71dp"
+                                android:translationX="307dp"
+                                android:translationY="-280dp"
+                                app:srcCompat="@drawable/date5" />
+
+                            <ImageView
+                                android:id="@+id/imageView43"
+                                android:layout_width="65dp"
+                                android:layout_height="71dp"
+                                android:translationX="385dp"
+                                android:translationY="-355dp"
+                                app:srcCompat="@drawable/date6" />
+
+                            <ImageView
+                                android:id="@+id/imageView403"
+                                android:layout_width="65dp"
+                                android:layout_height="71dp"
+                                android:translationX="465dp"
+                                android:translationY="-420dp"
+                                app:srcCompat="@drawable/date6" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="27dp"
+                        android:translationX="20dp"
+                        android:text="1680"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#2B2B2B"
+                        android:translationY="50dp"/>
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:translationX="75dp"
+                        android:translationY="30dp"
+                        android:textColor="#C4C4C4"
+                        android:text="kal" />
+
+                    <ImageView
+                        android:id="@+id/imageView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:translationY="60dp"
+                        app:srcCompat="@drawable/gaph_1" />
+
+                    <LinearLayout
+                        android:layout_width="373dp"
+                        android:layout_height="122dp"
+                        android:translationX="20dp"
+                        android:translationY="85dp"
+                        android:background="@drawable/runtime"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="206dp"
+                            android:layout_height="17dp"
+                            android:translationY="20dp"
+                            android:translationX="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView54"
+                                android:layout_width="5.5dp"
+                                android:layout_height="5dp"
+                                android:translationX="85dp"
+                                android:translationY="8dp"
+                                app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+                            <TextView
+                                android:id="@+id/textView18"
+                                android:layout_width="57dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#FA7B34"
+                                android:translationX="20dp"
+                                android:translationY="-6dp"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:text="Running" />
+
+                            <TextView
+                                android:id="@+id/textView19"
+                                android:layout_width="106dp"
+                                android:layout_height="17dp"
+                                android:translationX="100dp"
+                              android:translationY="-15dp"
+                                android:textColor="#FA7B34"
+                                android:textSize="12sp"
+                                android:text="8.00 AM - 9.30AM" />
+
+                            <ImageView
+                                android:id="@+id/imageView53"
+                                android:layout_width="13dp"
+                                android:layout_height="15dp"
+                                android:translationY="-15dp"
+                                app:srcCompat="@drawable/aa" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="282dp"
+                            android:layout_height="48dp"
+                            android:translationY="30dp"
+                            android:translationX="40dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView28"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1.32"
+                                android:textStyle="bold"
+                                android:textSize="35sp"
+                                android:textColor="#2B2B2B"/>
+
+                            <TextView
+                                android:id="@+id/textView30"
+                                android:layout_width="36dp"
+                                android:layout_height="19dp"
+                                android:translationX="76dp"
+                                android:translationY="-25dp"
+                                android:textSize="14sp"
+                                android:textColor="#2B2B2B"
+                                android:text="hours" />
+
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="73dp"
+                                android:layout_height="48dp"
+                                android:translationY="-65dp"
+                                android:text="9.50"
+                                android:translationX="137dp"
+                                android:textStyle="bold"
+                                android:textSize="35sp"
+                                android:textColor="#2B2B2B"/>
+
+                            <TextView
+                                android:id="@+id/textView29"
+                                android:layout_width="67dp"
+                                android:layout_height="19dp"
+                                android:translationX="215dp"
+                                android:translationY="-90dp"
+                                android:textSize="14sp"
+                                android:textColor="#2B2B2B"
+                                android:text="kilometer" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="373dp"
+                        android:layout_height="122dp"
+                        android:translationY="100dp"
+                        android:translationX="20dp"
+                        android:background="@drawable/runtime"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="206dp"
+                            android:layout_height="17dp"
+                            android:translationY="20dp"
+                            android:translationX="20dp"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageView55"
+                                android:layout_width="5.5dp"
+                                android:layout_height="5dp"
+                                android:translationX="85dp"
+                                android:translationY="8dp"
+                                app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="57dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#FA7B34"
+                                android:translationX="20dp"
+                                android:translationY="-6dp"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:text="Running" />
+
+                            <TextView
+                                android:id="@+id/textView27"
+                                android:layout_width="106dp"
+                                android:layout_height="17dp"
+                                android:translationX="100dp"
+                                android:translationY="-15dp"
+                                android:textColor="#FA7B34"
+                                android:textSize="12sp"
+                                android:text="8.00 AM - 9.30AM" />
+
+                            <ImageView
+                                android:id="@+id/imageView59"
+                                android:layout_width="13dp"
+                                android:layout_height="15dp"
+                                android:translationY="-15dp"
+                                app:srcCompat="@drawable/aa" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="282dp"
+                            android:layout_height="48dp"
+                            android:translationY="30dp"
+                            android:translationX="40dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView37"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="1.32"
+                                android:textStyle="bold"
+                                android:textSize="35sp"
+                                android:textColor="#2B2B2B"/>
+
+                            <TextView
+                                android:id="@+id/textView49"
+                                android:layout_width="36dp"
+                                android:layout_height="19dp"
+                                android:translationX="76dp"
+                                android:translationY="-25dp"
+                                android:textSize="14sp"
+                                android:textColor="#2B2B2B"
+                                android:text="hours" />
+
+                            <TextView
+                                android:id="@+id/textView39"
+                                android:layout_width="73dp"
+                                android:layout_height="48dp"
+                                android:translationY="-65dp"
+                                android:text="9.50"
+                                android:translationX="137dp"
+                                android:textStyle="bold"
+                                android:textSize="35sp"
+                                android:textColor="#2B2B2B"/>
+
+                            <TextView
+                                android:id="@+id/textView32"
+                                android:layout_width="67dp"
+                                android:layout_height="19dp"
+                                android:translationX="215dp"
+                                android:translationY="-90dp"
+                                android:textSize="14sp"
+                                android:textColor="#2B2B2B"
+                                android:text="kilometer" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navi1"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:translationY="695dp"
+        tools:ignore="MissingClass">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="TODO"
+            android:translationX="40dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="120dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/ecercise_icon" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="200dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/people_icon" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="300dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/settings_icon" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

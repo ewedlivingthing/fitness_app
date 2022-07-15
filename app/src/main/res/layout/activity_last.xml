@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="900dp"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="25dp"
+        android:orientation="vertical"
+        android:translationX="20dp"
+        android:translationY="23dp">
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="18dp"
+            android:layout_height="14.5dp"
+            android:translationX="-2dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="7dp"
+            android:layout_height="25dp"
+            android:translationX="365dp"
+            android:translationY="-14dp"
+            app:srcCompat="@drawable/menu" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="171dp"
+        android:layout_height="29dp"
+        android:text="Your Activity"
+        android:textColor="#2B2B2B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="16dp"
+        android:translationY="65dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:text="This Week"
+        android:textColor="#2B2B2B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="17dp"
+        android:translationY="110dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="74dp"
+        android:orientation="vertical"
+        android:translationX="20dp"
+        android:translationY="160dp">
+
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            app:srcCompat="@drawable/date1" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:translationX="77dp"
+            android:translationY="-70dp"
+            app:srcCompat="@drawable/date2" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:translationX="154dp"
+            android:translationY="-142dp"
+            app:srcCompat="@drawable/date3" />
+
+        <ImageView
+            android:id="@+id/imageView446"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:translationX="231dp"
+            android:translationY="-210dp"
+            app:srcCompat="@drawable/date4" />
+
+
+        <ImageView
+            android:id="@+id/imageView436"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:translationX="307dp"
+            android:translationY="-280dp"
+            app:srcCompat="@drawable/date5" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/imageView47"
+        android:layout_width="82dp"
+        android:layout_height="27dp"
+        android:translationX="19dp"
+        android:translationY="250dp"
+        android:text="1080 kal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="414dp"
+        android:layout_height="130dp"
+        android:translationX="1dp"
+        android:translationY="280dp"
+        app:srcCompat="@drawable/graphlast" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="100dp"
+        android:background="@drawable/timer"
+        android:orientation="vertical"
+        android:translationX="20dp"
+        android:translationY="425dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="120dp"
+            android:layout_height="15dp"
+            android:text="8.00 AM - 9:30AM"
+            android:textColor="#FA7B34"
+            android:textSize="12sp"
+            android:translationX="110dp"
+            android:translationY="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:translationX="95dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:translationX="20dp"
+            android:translationY="-5dp"
+            app:srcCompat="@drawable/bicycle" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="52dp"
+            android:layout_height="17dp"
+            android:text="Cycling  "
+            android:textColor="#FA7B34"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:translationX="40dp"
+            android:translationY="-20dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="73dp"
+            android:layout_height="48dp"
+            android:text="1.32"
+            android:textColor="#2B2B2B"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="20dp"
+            android:translationY="-15dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="36dp"
+            android:layout_height="19dp"
+            android:text="hours"
+            android:textSize="14sp"
+            android:translationX="95dp"
+            android:translationY="-40dp" />
+
+        <TextView
+            android:id="@+id/textView206"
+            android:layout_width="73dp"
+            android:layout_height="48dp"
+            android:text="9.50"
+            android:textColor="#2B2B2B"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="150dp"
+            android:translationY="-83dp" />
+
+        <TextView
+            android:id="@+id/textView247"
+            android:layout_width="67dp"
+            android:layout_height="19dp"
+            android:text="kilometeres"
+            android:textSize="14sp"
+            android:translationX="222dp"
+            android:translationY="-112dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="100dp"
+        android:background="@drawable/timer"
+        android:orientation="vertical"
+        android:translationX="20dp"
+        android:translationY="530dp">
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:translationX="20dp"
+            android:translationY="10dp"
+            app:srcCompat="@drawable/swimmin" />
+
+
+        <TextView
+            android:id="@+id/textView253"
+            android:layout_width="72dp"
+            android:layout_height="17dp"
+            android:text="Swimming "
+            android:textColor="#FA7B34"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:translationX="40dp"
+            android:translationY="-8dp" />
+
+        <ImageView
+            android:id="@+id/imageView540"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:translationX="115dp"
+            android:translationY="-16dp"
+            app:srcCompat="@drawable/ic_baseline_circle_24" />
+
+        <TextView
+            android:id="@+id/textView295"
+            android:layout_width="120dp"
+            android:layout_height="15dp"
+            android:text="8.00 AM - 9:30AM"
+            android:textColor="#FA7B34"
+            android:textSize="12sp"
+            android:translationX="125dp"
+            android:translationY="-27dp" />
+        <TextView
+            android:id="@+id/textView2536"
+            android:layout_width="73dp"
+            android:layout_height="48dp"
+            android:text="1.32"
+            android:textColor="#2B2B2B"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="20dp"
+            android:translationY="-20dp" />
+
+        <TextView
+            android:id="@+id/textView2037"
+            android:layout_width="36dp"
+            android:layout_height="19dp"
+            android:text="hours"
+            android:textSize="14sp"
+            android:translationX="95dp"
+            android:translationY="-44dp" />
+
+        <TextView
+            android:id="@+id/textView2106"
+            android:layout_width="73dp"
+            android:layout_height="48dp"
+            android:text="9.50"
+            android:textColor="#2B2B2B"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:translationX="150dp"
+            android:translationY="-85dp" />
+
+        <TextView
+            android:id="@+id/textView2447"
+            android:layout_width="67dp"
+            android:layout_height="19dp"
+            android:text="kilometeres"
+            android:textSize="14sp"
+            android:translationX="222dp"
+            android:translationY="-112dp" />
+
+    </LinearLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="414dp"
+        android:layout_height="51dp"
+        android:background="@color/white"
+        android:translationY="610dp">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="46dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="146dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/ecercise_icon" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="247dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/people_icon" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:translationX="343dp"
+            android:translationY="13dp"
+            app:srcCompat="@drawable/settings_icon" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</RelativeLayout>

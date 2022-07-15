@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fitness_app</string>
+
+    <string name="hello_bukola_omoleye">Hello, Bukola Omoleye</string>
+    <string name="find_your_workout_class">Find Your Workout Class</string>
+    <string name="search">search</string>
+    <string name="scroll">scroll</string>
+    <string name="today_activities">Today Activity</string>
+    <string name="see_all"> See all</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_page">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:src="@drawable/workout_flutterkicks"
+
+
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="FLUTTER KICKS"
+        android:textAlignment="center"
+        android:textColor="#2B2B2B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="50dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_button"
+        android:text="Done"
+        android:textColor="#FFF4F4"
+        android:textSize="20sp"
+        android:translationX="110dp"
+        android:translationY="580dp" />
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:translationX="20dp"
+        android:translationY="500dp">
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="20dp"
+            app:srcCompat="@drawable/ic_baseline_skip_previous_24" />
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:translationX="250dp"
+            android:translationY="-50dp"
+            app:srcCompat="@drawable/ic_baseline_skip_next_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:translationX="60dp"
+        android:translationY="420dp">
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="01"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:translationX="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=":"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:translationX="65dp"
+            android:translationY="-50dp"></TextView>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="09"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:translationX="100dp"
+            android:translationY="-100dp"></TextView>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=":"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:translationX="135dp"
+            android:translationY="-150dp"></TextView>
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="00"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:translationX="180dp"
+            android:translationY="-200dp"></TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
